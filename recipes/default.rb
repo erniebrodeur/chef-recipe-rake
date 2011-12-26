@@ -6,3 +6,10 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+rake_version = node['rake']['version']
+
+gem_package "rake" do
+  if rake_version
+    version = rake_version
+  end
+end
