@@ -1,3 +1,4 @@
+name             "rake"
 maintainer       "Ernie Brodeur"
 maintainer_email "ebrodeur@ujami.net"
 license          "Beer-ware rv42"
